@@ -31,8 +31,3 @@ let typingInterval = setInterval(function(){
     if(n == normalText.length) clearInterval(typingInterval);
 },100)
 
-window.onload = function(){
-    console.log(eleTyping.querySelector("span"))
-    alert("hi")
-}
-
